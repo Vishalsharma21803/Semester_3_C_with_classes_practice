@@ -14,7 +14,7 @@ int main(){
     else if(x>2){
         cout<<a<<endl;
         cout<<b<<endl;
-    for(int i=0;i<x;i++){
+    for(int i=3;i<x;i++){
         c=a+b;
         a=b;
         b=c;
