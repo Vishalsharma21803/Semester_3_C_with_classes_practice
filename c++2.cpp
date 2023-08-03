@@ -9,6 +9,7 @@ int main(){
         c=a+b;
         a=b;
         b=c;
+        cout<<c<<endl;
 
 
     }
