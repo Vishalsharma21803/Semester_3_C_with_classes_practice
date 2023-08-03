@@ -17,6 +17,7 @@ int main(){
 	else if (count==0){
 		cout<<x<<" is prime number"<<endl;
 		
+        
 	}
 	else{
 		cout<<x<<" is not a prime number"<<endl;
