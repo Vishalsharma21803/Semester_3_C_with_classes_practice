@@ -5,11 +5,19 @@ int main(){
     int x;
     cout<<"Enter the number: ";
     cin>>x;
+    if (x==1){
+        cout<<a<<endl;
+    }
+    else if(x==2){
+        cout<<a<<" "<<b<<endl;
+    }
+    else if(x>2){
     for(int i=0;i<x;i++){
         c=a+b;
         a=b;
         b=c;
         cout<<c<<endl;
+    }
 
 
     }
