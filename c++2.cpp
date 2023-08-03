@@ -9,7 +9,9 @@ int main(){
         cout<<a<<endl;
     }
     else if(x==2){
-        cout<<a<<" "<<b<<endl;
+        cout<<a<<endl;
+        cout<<b<<endl;
+        
     }
     else if(x>2){
         cout<<a<<endl;
