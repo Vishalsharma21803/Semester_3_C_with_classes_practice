@@ -5,7 +5,10 @@ int main(){
     int x;
     cout<<"Enter the number: ";
     cin>>x;
-    if (x==1){
+    if (x==0){
+        cout<<"please enter a number greater than zero";
+    }
+    else if (x==1){
         cout<<a<<endl;
     }
     else if(x==2){
