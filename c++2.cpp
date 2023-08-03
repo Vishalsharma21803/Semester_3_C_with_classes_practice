@@ -12,8 +12,8 @@ int main(){
         cout<<a<<" "<<b<<endl;
     }
     else if(x>2){
-        cout<<a;
-        cout<<b;
+        cout<<a<<endl;
+        cout<<b<<endl;
     for(int i=0;i<x;i++){
         c=a+b;
         a=b;
