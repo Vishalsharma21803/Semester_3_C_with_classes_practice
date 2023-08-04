@@ -3,15 +3,21 @@ using namespace std;
 int main(){
     int a;
     cin>>a;
-    if(a>0){
-        cout<<"number is positive";
+    if(100>=a>90){
+        cout<<"A";
 
     }
-    else if(a==0){
-        cout<<"the number is zero";
+    else if(90>=a>80){
+        cout<<"B";
+    }
+    else if(80>=a>=70){
+        cout<<"C";
+    }
+    else if(70>a){
+        cout<<"D";
     }
     else{
-        cout<<"the number is negative";
+        cout<<"enter a valid number";
     }
     return 0;
     }
