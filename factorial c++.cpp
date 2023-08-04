@@ -16,7 +16,7 @@ int fac(int n){
 }
 int main(){
     int x;
-    cout<<"Enter number: "<<endl;
+    cout<<"Enter number: ";
     cin>>x;
     cout<<fac(x)<<endl;
 
