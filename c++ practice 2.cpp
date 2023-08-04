@@ -3,8 +3,10 @@ using namespace std;
 int main(){
     int x;
     cin>>x;
-    for(int i=1;i<11;i++){
+    int i=1;
+    while(i<11){
         cout<<x*i<<endl;
+        i++;
     }
     return 0;
 }
