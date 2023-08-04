@@ -15,7 +15,10 @@ int fac(int n){
     return mul;
 }
 int main(){
-    cout<<fac(0)<<endl;
+    int x;
+    cout<<"Enter number: "<<endl;
+    cin>>x;
+    cout<<fac(x)<<endl;
 
     return 0;
 }
