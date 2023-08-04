@@ -2,9 +2,9 @@
 using namespace std;
 
 int rec(int n){
-    int fac=n;
+    int fac;
     
-    fac=fac*rec(n-1);
+    fac=n*rec(n-1);
         
         
     
