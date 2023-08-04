@@ -4,7 +4,7 @@ int fac(int n){
 
     int mul=1;
     if (n==0){
-        cout<<"1"<<endl;
+        mul=1;
     }
     else{
         for (int i=1;i<=n;i++){
