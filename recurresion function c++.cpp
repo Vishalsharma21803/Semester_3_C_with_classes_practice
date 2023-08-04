@@ -14,7 +14,7 @@ int rec(int n){
 }
 
 int main(){
-    cout<<rec(4)<<endl;
+    cout<<rec(10)<<endl;
 
     return 0;
 }
