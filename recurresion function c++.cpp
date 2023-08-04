@@ -2,7 +2,7 @@
 using namespace std;
 
 int rec(int n){
-    int fac;
+    
     if(n>1){
     
 
