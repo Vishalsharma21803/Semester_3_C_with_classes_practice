@@ -4,9 +4,9 @@ using namespace std;
 int rec(int n){
     int fac;
     if(n>1){
-    fac=n*rec(n-1);
+    
 
-    return fac;
+    return n*rec(n-1);
     }
     else{
         return 0;
