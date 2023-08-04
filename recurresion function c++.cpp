@@ -2,7 +2,7 @@
 using namespace std;
 
 int rec(int n){
-    int fac;
+    int fac=n;
     
     fac=fac*rec(n-1);
         
