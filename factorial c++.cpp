@@ -3,9 +3,14 @@ using namespace std;
 int fac(int n){
 
     int mul=1;
-    for (int i=1;i<=n;i++){
-        mul=mul*i;
-        
+    if (n==0){
+        cout<<"1";
+    }
+    else{
+        for (int i=1;i<=n;i++){
+            mul=mul*i;
+            
+        }
     }
     return mul;
 }
