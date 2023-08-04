@@ -9,7 +9,7 @@ int fac(int n){
     return mul;
 }
 int main(){
-    fac(5);
+    cout<<fac(5);
 
     return 0;
 }
