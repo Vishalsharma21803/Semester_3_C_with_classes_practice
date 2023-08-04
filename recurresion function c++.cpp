@@ -3,7 +3,7 @@ using namespace std;
 
 int rec(int n){
     int fac;
-    if(n>0){
+    if(n>1){
         fac=fac*rec(n-1);
         
         
