@@ -4,7 +4,6 @@ int main(){
     int n;
     cout<<"enter number: ";
     cin>>n;
-    int rev=0;
     int tempeven,tempodd;
     int rem;
     while(n!=0)
