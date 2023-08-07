@@ -10,6 +10,7 @@ int main(){
         n/=10;
         temp=temp*10+rem*rem;
     }
+    temp;
     while(temp!=0){
         rem2=n%10;
         temp/=10;
