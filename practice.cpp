@@ -10,12 +10,12 @@ int main(){
         n/=10;
         temp=temp*10+rem*rem;
     }
-    cout<<temp;
+    cout<<temp<<endl;
     while(temp!=0){
         rem2=n%10;
         temp/=10;
         temp2=temp2*10+rem2*rem2;
     }
-    cout<<temp2;
+    cout<<temp2<<endl;
     return 0;
 }
