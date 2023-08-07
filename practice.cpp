@@ -10,5 +10,6 @@ int main(){
         n/=10;
         temp=temp*10+rem*rem;
     }
+    cout<<temp;
     return 0;
 }
