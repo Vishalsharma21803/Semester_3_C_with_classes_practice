@@ -17,7 +17,7 @@ int main(){
         tempodd+=rem;
     }
 }
-cout<<"sum of even"<<tempeven<<endl;
-cout<<"sum of odd "<<tempodd<<endl;
+cout<<"sum of even: "<<tempeven<<endl;
+cout<<"sum of odd: "<<tempodd<<endl;
 return 0;
 }
