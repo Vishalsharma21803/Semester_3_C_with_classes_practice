@@ -12,6 +12,6 @@ int main(){
     rev=rev*n+rem;
     n=n/10;
 }
-cout<<"rev";
+cout<<rev;
 return 0;
 }
