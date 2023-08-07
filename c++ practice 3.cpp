@@ -14,7 +14,7 @@ int main(){
         tempeven +=rem;
     }
     else if(rem%2!=0){
-        tempodd+=n;
+        tempodd+=rem;
     }
 }
 cout<<"sum of even"<<tempeven<<endl;
