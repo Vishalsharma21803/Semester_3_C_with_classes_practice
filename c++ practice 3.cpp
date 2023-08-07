@@ -13,7 +13,7 @@ int main(){
     if(rem%2==0){
         tempeven +=rem;
     }
-    else{
+    else if(rem%2!=0){
         tempodd+=n;
     }
 }
