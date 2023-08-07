@@ -14,7 +14,7 @@ int main(){
     while(temp!=0){
         rem2=n%10;
         temp/=10;
-        temp2=temp2*10+rem2*rem2;
+        temp2=temp2*10+rem2;
     }
     cout<<temp2<<endl;
     return 0;
