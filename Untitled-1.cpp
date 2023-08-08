@@ -14,7 +14,7 @@ int main(){
         }
         if (count == 2){
             cout << i << endl;
-            count = 0;
         }
+        count = 0;
     }
 }
