@@ -3,35 +3,34 @@ using namespace std;
 
 int main()
 {
-  int n;
-  cin >> n;
+    int n;
+    cin >> n;
+    int row = n;
+    int spaces = 0;
+    while (row >= 1)
+    {
+        int col = 1;
+        while (col <= row)
+        {
+            cout << col;
+            col++;
+        }
+        int asterick = 0;
+        while (asterick < spaces)
+        {
+            cout << "*";
+            asterick++;
+        }
 
-  int row = 1;
-  while (row <= n)
-  {
-    // print space
-    int space = n - row;
-    while (space)
-    {
-      cout << " ";
-      space--;
-    }
-    // print 2nd triangle
-    int col = 1;
-    while (col <= row)
-    {
-      cout << col;
-      col++;
-    }
+        col = row;
+        while (col >= 1)
+        {
+            cout << col;
+            col--;
+        }
 
-    // print 3rd triangle
-    int start = row - 1;
-    while (start)
-    {
-      cout << start;
-      start--;
+        cout << endl;
+        row--;
+        spaces += 2;
     }
-    cout << endl;
-    row++;
-  }
 }
