@@ -11,9 +11,10 @@ int main(){
                 cout<<i<<" ";
                 count ++;
             }
-            if(count == 2){
-                cout << i << endl;
+
             }
-    }
+        if(count == 2){
+            cout << i << endl;
+            }
     return 0;
 }}
