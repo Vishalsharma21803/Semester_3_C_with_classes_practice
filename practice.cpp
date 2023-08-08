@@ -15,8 +15,9 @@ int main(){
     x=temp;
     while(x!=0){
         rem2=x%10;
-        x/=10;
+        
         temp2=temp2*10+rem2*rem2;
+        x=x/10;
     }
     cout<<temp2<<endl;
     return 0;
