@@ -9,7 +9,7 @@ int main(){
     for(int i=n;i>0;){
         rem=i%10;
         
-        if(i=n || i==1 ){
+        if(i==n || i==1 ){
             temp+=rem;
         }
         
