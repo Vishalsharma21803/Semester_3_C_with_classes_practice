@@ -12,6 +12,9 @@ int main(){
         if(i==n || i==1 ){
             temp+=rem;
         }
+        else{
+            continue;
+        }
         
     }
     cout<<temp;
