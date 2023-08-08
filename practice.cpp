@@ -15,8 +15,12 @@ int main(){
     x=temp;
     while(x!=0){
         rem2=x%10;
-        
+        if((rem2*rem2)<10){
         temp2=temp2*10+rem2*rem2;
+        }
+        else if((rem2*rem2>9)){
+            temp2=temp2*100+rem2*rem2;
+        }
         x=x/10;
     }
     cout<<temp2<<endl;
