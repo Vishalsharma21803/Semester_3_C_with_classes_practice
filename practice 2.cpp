@@ -6,7 +6,7 @@ int main(){
     cout<<"enter number: ";
     cin>>n;
     
-    for(int i=n;i>0;){
+    for(int i=n;i>0; ){
         rem=i%10;
         
         if(i==n || i==1 ){
