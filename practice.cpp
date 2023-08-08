@@ -12,7 +12,7 @@ int main(){
     }
 
     cout<<temp<<endl;
-    temp=x;
+    x=temp;
     while(x!=0){
         rem2=x%10;
         x/=10;
