@@ -13,7 +13,7 @@ int main(){
             }
         }
         if (count == 2){
-            cout << i << endl;
+            cout << i << " ";
         }
         count = 0;
     }
