@@ -15,7 +15,7 @@ int main(){
         else{
             continue;
         }
-        
+        i/=10;
     }
     cout<<temp;
     return 0;
