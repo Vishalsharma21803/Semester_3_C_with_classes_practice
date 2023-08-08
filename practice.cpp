@@ -11,7 +11,7 @@ int main(){
         temp=temp*10+rem;
     }
 
-    cout<<temp<<endl;
+    // cout<<temp<<endl;
     x=temp;
     while(x!=0){
         rem2=x%10;
