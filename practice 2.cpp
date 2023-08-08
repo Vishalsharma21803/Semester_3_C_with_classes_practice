@@ -5,8 +5,9 @@ int main(){
     int rem=0,temp=0;
     cout<<"enter number: ";
     cin>>n;
+    int i;
     
-    for(int i=n;i>0; ){
+    for( i=n;i>0; ){
         rem=i%10;
         
         if(i=n ){
