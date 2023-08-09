@@ -10,8 +10,12 @@ int main(){
         n/=10;
         s=rem*rem;
         m=m+s*p;
+        if(s<10){
         p*=10;
-
+        }
+        else if(s>9){
+            p*=100;
+        }
     }
     cout<<m;
 }
