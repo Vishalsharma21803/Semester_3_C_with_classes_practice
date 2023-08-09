@@ -6,7 +6,7 @@ int main(){
     cin>>n;
     int rem;
     int last=n%10;
-    while(n!=0){
+    while(n>=10){
         
         n=n/10;
 
