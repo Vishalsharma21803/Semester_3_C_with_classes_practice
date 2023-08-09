@@ -11,6 +11,8 @@ int main(){
         n=n/10;
 
     }
+    cout<<n<<endl;
+    cout<<last<<endl;
     cout<<"sum is: "<<n+last;
     return 0;
 }
