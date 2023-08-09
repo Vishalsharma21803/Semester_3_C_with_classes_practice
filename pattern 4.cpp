@@ -13,5 +13,5 @@ int main(){
         p*=10;
 
     }
-    cout<<p;
+    cout<<m;
 }
