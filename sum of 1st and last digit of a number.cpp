@@ -4,7 +4,6 @@ int main(){
     int n;
     cout<<"Enter number: ";
     cin>>n;
-    int rem;
     int last=n%10;
     while(n>=10){
         
