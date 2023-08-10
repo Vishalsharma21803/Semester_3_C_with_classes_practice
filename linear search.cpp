@@ -13,14 +13,22 @@ int main(){
     int x;
     cout<<"enter search: ";
     cin>>x;
+    int sum=0;
     for(int j=0;j<n;j++){
         if(j==x){
-            cout<<j;
+            sum=j;
             break;
         }
         else{
-            cout<<"not found";
+            sum=0;
         }
+    }
+    if(sum!=0){
+        cout<<sum;
+    
+    }
+    else{
+        cout<<"not found";
     }
     return 0;
 }
