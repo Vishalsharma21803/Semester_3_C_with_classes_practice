@@ -24,7 +24,7 @@ int main(){
         }
     }
     if(sum!=0){
-        cout<<sum;
+        cout<<"index position is: "<<sum;
     
     }
     else{
