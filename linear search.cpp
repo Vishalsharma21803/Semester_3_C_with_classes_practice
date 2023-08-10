@@ -15,7 +15,7 @@ int main(){
     cin>>x;
     int sum=0;
     for(int j=0;j<n;j++){
-        if(j==x){
+        if(arr[j]==x){
             sum=j;
             break;
         }
