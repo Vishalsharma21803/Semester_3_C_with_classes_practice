@@ -8,22 +8,26 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    int temp=0;
+    int count1=0;
+    int count2=0;
     for(int j=0;j<n;j++){
         if(arr[j]==0){
-            continue;
+            count1+=1;
         }
         else if (arr[j]==1){
-            arr[j]=temp;
-            arr[j]=arr[j+1];
-            arr[j+1]=temp;
+            count2+=1;
 
         }
     }
+    for(int i=0;i<count1;i++){
+        cout<<"0"<<" ";
+    }
+    for(int i=0;i<count1;i++){
+        cout<<"0"<<" ";
+    }
+
 
     
-for(int i=0;i<n;i++){
-cout<<arr[i]<<" ";
-}
+
 return 0;
 }
