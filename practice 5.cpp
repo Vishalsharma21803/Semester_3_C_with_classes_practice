@@ -22,8 +22,8 @@ int main(){
     for(int i=0;i<count1;i++){
         cout<<"0"<<" ";
     }
-    for(int i=0;i<count1;i++){
-        cout<<"0"<<" ";
+    for(int i=0;i<count2;i++){
+        cout<<"1"<<" ";
     }
 
 
