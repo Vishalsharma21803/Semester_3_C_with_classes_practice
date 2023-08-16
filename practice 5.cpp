@@ -20,10 +20,10 @@ int main(){
         }
     }
     for(int i=0;i<count0;i++){
-        arr[i]==0;
+        arr[i]=0;
     }
     for(int i=count0;i<n;i++){
-        arr[i]==1;
+        arr[i]=1;
     }
 
     for(int i=0;i<n;i++){
