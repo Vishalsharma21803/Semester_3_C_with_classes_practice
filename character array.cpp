@@ -12,7 +12,9 @@ int main(){
     cin>>arr;
     
     cout<<arr;
-    cout<<arr;
+    
     length(arr);
+
+    cout<<arr;
     return 0;
 }
