@@ -16,10 +16,6 @@ int main(){
     cin.getline(arr,100);
     // cin>>arr;
     reverse(arr);
-    cout<<arr<<endl;
     
-    
-    
-
     return 0;
 }
