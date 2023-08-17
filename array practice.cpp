@@ -3,6 +3,9 @@ using namespace std;
 int length(char arr[]){
     int count=1;
     for(int i=0;arr[i]!='\0';i++){
+        if(arr[0]=='\0'){
+            break;
+        }
         if(arr[i]==' '){
             count+=1;
         }
