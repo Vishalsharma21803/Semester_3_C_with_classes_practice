@@ -9,13 +9,14 @@ int length(char arr[]){
 }
 int main(){
     char arr[100];
-    cin>>arr;
+    cin.getline(arr,20);
+    // cin>>arr;
     
     cout<<arr<<endl;
     
     cout<<length(arr)<<endl;
     
-    cin.getline(arr,20);
+    
 
     return 0;
 }
