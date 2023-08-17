@@ -11,10 +11,9 @@ int main(){
     char arr[100];
     cin>>arr;
     
-    cout<<arr;
+    cout<<arr<<endl;
     
-    cout<<length(arr);
+    cout<<length(arr)<<endl;
 
-    cout<<arr;
     return 0;
 }
