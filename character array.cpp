@@ -13,7 +13,7 @@ int main(){
     
     cout<<arr;
     
-    length(arr);
+    cout<<length(arr);
 
     cout<<arr;
     return 0;
