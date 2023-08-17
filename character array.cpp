@@ -14,6 +14,8 @@ int main(){
     cout<<arr<<endl;
     
     cout<<length(arr)<<endl;
+    
+    cin.getline(arr,20);
 
     return 0;
 }
