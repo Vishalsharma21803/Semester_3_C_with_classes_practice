@@ -13,6 +13,7 @@ void reverse(char arr[]){
 }
 int main(){
     char arr[100];
+    cout<<"Enter: ";
     cin.getline(arr,100);
     // cin>>arr;
     reverse(arr);
