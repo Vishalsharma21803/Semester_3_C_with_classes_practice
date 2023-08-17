@@ -2,8 +2,10 @@
 using namespace std;
 int length(char arr[]){
     int count=0;
-    for(int i=0;arr[i]!=' ';i++){
-        count+=1;
+    for(int i=0;arr[i]!='\0';i++){
+        if(arr[i]==' '){
+            count+=1;
+        }
     }
     return count;
 }
