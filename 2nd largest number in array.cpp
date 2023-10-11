@@ -17,7 +17,7 @@ int main(){
             continue;
         }
     }
-    cout<<"max: "<<max;
+    cout<<"max: "<<max<<endl;
 
     int max2=arr[0];
     int k;
@@ -33,7 +33,7 @@ int main(){
         }
     }
 
-    cout<<"max2 : "<<max2;
+    cout<<"max2 : "<<max2<<endl;
 
 
 
