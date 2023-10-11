@@ -18,5 +18,26 @@ int main(){
         }
     }
     cout<<"max: "<<max;
+
+    int max2=arr[0];
+    int k;
+    for(k=0;k<n;k++){
+        if(arr[k]>max2){
+            if(max2==max){
+                continue;
+            }
+        }
+        else{
+            continue;
+
+        }
+    }
+
+    cout<<"max2 : "<<max2;
+
+
+
+
+
     return 0;
 }
