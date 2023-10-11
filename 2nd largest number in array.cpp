@@ -17,6 +17,6 @@ int main(){
             continue;
         }
     }
-    cout<<max;
+    cout<<"max: "<<max;
     return 0;
 }
