@@ -26,6 +26,9 @@ int main(){
             if(max2==max){
                 continue;
             }
+            else{
+                max2=arr[k];
+            }
         }
         else{
             continue;
