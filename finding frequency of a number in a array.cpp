@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     int arr[]={5,6,8,5,3,9,5,7};
+    cout<<sizeof(arr);
     int count=0;
     cout<<"enter: ";
     int n;
@@ -12,6 +13,6 @@ int main(){
         }
     }
     cout<<endl;
-    cout<<"frequency"<<count;
+    cout<<"frequency: "<<count;
     return 0;
 }
