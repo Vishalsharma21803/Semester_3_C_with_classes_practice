@@ -13,27 +13,20 @@ int main(){
         if(arr[j]>max){
             max=arr[j];
         }
-        else{
-            continue;
-        }
+       
     }
     cout<<"max: "<<max<<endl;
 
-    int max2=arr[0];
+    int max2=arr[1];
     int k;
     for(k=0;k<n;k++){
         if(arr[k]>max2){
-            if(max2==max){
-                continue;
-            }
-            else{
+            if(arr[k]!=max){
                 max2=arr[k];
             }
+           
         }
-        else{
-            continue;
-
-        }
+    
     }
 
     cout<<"max2 : "<<max2<<endl;
