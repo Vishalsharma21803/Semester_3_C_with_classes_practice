@@ -16,5 +16,8 @@ int main(){
         }
         arr[0]=temp;
     }
+    for(int k=0;k<sizeofarray;k++){
+        cout<<arr[k]<<" ";
+    }
     return 0;
 }
