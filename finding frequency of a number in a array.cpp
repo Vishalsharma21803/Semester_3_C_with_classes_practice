@@ -2,12 +2,13 @@
 using namespace std;
 int main(){
     int arr[]={5,6,8,5,3,9,5,7};
-    cout<<(sizeof(arr)/sizeof(arr[0]))<<endl;
+    int sizeofarray=(sizeof(arr)/sizeof(arr[0]));
+    cout<<"total number of elements in array : "<<sizeofarray<<endl;
     int count=0;
     cout<<"enter: ";
     int n;
     cin>>n;
-    for(int i=0;i<8;i++){
+    for(int i=0;i<sizeofarray;i++){
         if(arr[i]==n){
             count+=1;
         }
