@@ -8,8 +8,9 @@ int main(){
     cin>>n;
     int temp;
     for(int i=0;i<n;i++){
+        temp=arr[sizeofarray-1];
+
         for(int j=sizeofarray-1;j<0;j--){
-            temp=arr[sizeofarray-1];
             arr[j]=arr[j-1];
 
             
