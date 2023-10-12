@@ -7,7 +7,7 @@ int main(){
     cout<<"enter: ";
     int n;
     cin>>n;
-    int temp;
+    int temp=0;
     for(int i=0;i<n;i++){
         temp=arr[sizeofarray-1];
 
