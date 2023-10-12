@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         temp=arr[sizeofarray-1];
 
-        for(int j=sizeofarray-1;j<0;j--){
+        for(int j=sizeofarray-1;j>-1;j--){
             arr[j]=arr[j-1];
 
             
