@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[]={2,7,5,9,4,3,6,77,99};
+    int arr[]={456,7,5,9,4,3,6,77,99};
     int sizeofarray=(sizeof(arr))/sizeof(arr[0]);
     int max=arr[0];
     for(int i=0;i<sizeofarray;i++){
