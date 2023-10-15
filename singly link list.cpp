@@ -12,6 +12,12 @@ using namespace std;
         this->next=NULL;
     }
     };
+
+void insertathead(Node* &head,int d){
+    Node* temp=new Node(d);
+    temp->next=head;
+    head = temp;
+}
     
 
 
