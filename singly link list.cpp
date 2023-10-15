@@ -34,6 +34,10 @@ int main(){
     cout<<node1->val<<endl;
     Node* head=node1;
     insertathead(head,20);
+    insertathead(head,30);
+    insertathead(head,40);
+    insertathead(head,50);
+
 
     print(head);
 
