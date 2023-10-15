@@ -45,6 +45,8 @@ int main(){
     insertathead(head,40);
     insertathead(head,50);
     insertattail(tail,1);
+    insertattail(tail,8);
+    insertattail(tail,9);
 
 
     print(head);
