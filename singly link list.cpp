@@ -30,9 +30,7 @@ void print(Node* &head){
 
 
 int main(){
-    Node* node1=new Node(10);
-    cout<<node1->val<<endl;
-    Node* head=node1;
+    Node* head;
     insertathead(head,20);
     insertathead(head,30);
     insertathead(head,40);
