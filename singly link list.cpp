@@ -26,12 +26,12 @@ void print(Node* &head){
     }
     
 }
-// void(Node* &tail,int d){
-//     Node* temp=new Node(d);
-//     tail->next=temp;
-//     tail=temp;
+void insertattail(Node* &tail,int d){
+    Node* temp=new Node(d);
+    tail->next=temp;
+    tail=temp;
 
-// }
+}
     
 
 
@@ -39,11 +39,12 @@ int main(){
     Node* node1=new Node(10);
     
     Node* head=node1;
-   // Node* tail=node1;
+    Node* tail=node1;
     insertathead(head,20);
     insertathead(head,30);
     insertathead(head,40);
     insertathead(head,50);
+    insertattail(tail,1);
 
 
     print(head);
