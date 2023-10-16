@@ -33,17 +33,30 @@ void insertattail(Node* &tail,int d){
 
 }
 
-void insertatmiddle(Node* &head,int d,int pos){
-    Node* newnode=new Node(d);
-    Node*temp =head;  
-    // for(int i=1;i<pos-1;i++){
-    //     temp=temp->next;
-    // }
-    int count=1;
-    while(count<pos){
-        temp=temp->next;
-        count++;
+void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
+     
+    if(pos==1){
+        insertathead(head,d);
+        return ;
     }
+
+    Node*temp =head; 
+    for(int i=1;i<pos-1;i++){
+        temp=temp->next;
+    }
+    // int count=1;
+    // while(count<pos){
+    //     temp=temp->next;
+    //     count++;
+    // }
+
+    if(temp->next==NULL){
+        insertattail(tail,d);
+        return ;
+    }
+
+
+    Node* newnode=new Node(d);
     newnode->next=temp->next;
     temp->next=newnode;
 
@@ -64,9 +77,9 @@ int main(){
     insertattail(tail,8);
     insertattail(tail,9);
    
-    insertatmiddle(head,66,2);
-    insertatmiddle(head,55,3);
-    insertatmiddle(head,35,4);
+    insertatmiddle(head,tail,66,2);
+    insertatmiddle(head,tail,55,3);
+    insertatmiddle(head,tail,35,4);
 
 
     print(head);
