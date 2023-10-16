@@ -42,6 +42,7 @@ void insertatmiddle(Node* &head,int d,int pos){
     int count=1;
     while(count<pos){
         temp=temp->next;
+        count++;
     }
     newnode->next=temp->next;
     temp->next=newnode;
