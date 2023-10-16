@@ -36,7 +36,7 @@ void insertattail(Node* &tail,int d){
 void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
      
     if(pos==1){
-        insertathead(head,d);
+        insertathead(head,d);  // here we are also updating the value of head (code in insertathead function)
         return ;
     }
 
@@ -51,7 +51,7 @@ void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
     // }
 
     if(temp->next==NULL){
-        insertattail(tail,d);
+        insertattail(tail,d); // here we are also updating the value of tail (code in insertattail function)
         return ;
     }
 
@@ -76,9 +76,10 @@ int main(){
     insertattail(tail,1);
     insertattail(tail,8);
     insertattail(tail,9);
-    insertatmiddle(head,tail,35,4);
+    
     insertatmiddle(head,tail,66,2);
     insertatmiddle(head,tail,55,3);
+    insertatmiddle(head,tail,35,4);
     
 
 
