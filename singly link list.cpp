@@ -32,6 +32,22 @@ void insertattail(Node* &tail,int d){
     tail=temp;
 
 }
+
+void insertatmiddle(Node* &head,int d,int pos){
+    Node* temp=new Node(d);
+    temp=head;
+    for(int i=0;i<pos;i++){
+        temp=temp->next;
+    }
+    temp->next=temp->next->next;
+    Node* temp2;
+    temp2=head;
+    for(int j=0;j<pos-1;j++){
+        temp2=temp2->next;
+    }
+    temp2->next=temp;
+
+}
     
 
 
