@@ -73,16 +73,8 @@ void deletenode(Node* &head,int pos){
     for(int i=1;i<pos-1;i++){
         temp=temp->next;
     }
-    // if(temp->next==NULL){
-    //     Node* temp3=tail;
-    //     delete tail;
-    //     tail=temp3;
-    // }
-    
     temp->next=temp->next->next;
-    
     }
-
 }
     
 
