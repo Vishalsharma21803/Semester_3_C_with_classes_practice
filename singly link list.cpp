@@ -66,6 +66,7 @@ void deletenode(Node* &head,int pos){
         Node* temp2=head;
         temp2=temp2->next;
         head=temp2;
+        delete temp2;
         
     }
     else{
@@ -101,7 +102,7 @@ int main(){
     deletenode(head,1);
     print(head);
     cout<<endl;
-    deletenode(head,10);
+    deletenode(head,8);
     cout<<"head: "<<head->val<<endl;
     cout<<"tail: "<<tail->val<<endl;
     
