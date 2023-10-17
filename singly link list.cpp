@@ -112,7 +112,7 @@ int main(){
     cout<<"head: "<<head->val<<endl;
     cout<<"tail: "<<tail->val<<endl;
     
-    //______________________________
+    cout<<"______________________________";
 
     deletenode(head,tail,1);
     print(head);
