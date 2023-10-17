@@ -92,6 +92,7 @@ void search(Node* head, int d){
             cout<<d<<" is at "<<count<<" position in linked list"<<endl;
             return ;
         }
+        
     }
 }
 
@@ -135,7 +136,7 @@ int main(){
     // cout<<"head: "<<head->val<<endl;
     // cout<<"tail: "<<tail->val<<endl;
 
-    search(head,45);
+    search(head,40);
     
 
 
