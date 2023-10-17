@@ -61,7 +61,7 @@ void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
     temp->next=newnode;
 
 }
-void deletenode(Node* &head,Node* &tail,int pos){
+void deletenode(Node* &head,int pos){
     if(pos==1){
         Node* temp2=head;
         temp2=temp2->next;
@@ -106,7 +106,7 @@ int main(){
     print(head);
     cout<<endl;
 
-    deletenode(head,tail,1);
+    deletenode(head,1);
     print(head);
     cout<<endl;
     //deletenode(head,tail,9);
