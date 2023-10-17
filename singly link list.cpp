@@ -114,7 +114,7 @@ int main(){
     insertatmiddle(head,tail,66,2);
     insertatmiddle(head,tail,55,3);
     insertatmiddle(head,tail,35,4);
-    // print(head);
+    print(head);
     // cout<<endl;
 
     // deletenode(head,tail,1);
