@@ -61,12 +61,14 @@ void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
     temp->next=newnode;
 
 }
-void deletenode(Node* head,int pos){
+void deletenode(Node* head,Node* tail,int pos){
+    
     Node* temp=head;
     for(int i=1;i<pos-1;i++){
         temp=temp->next;
     }
     temp->next=temp->next->next;
+    
 
 }
     
@@ -91,7 +93,8 @@ int main(){
     print(head);
     cout<<endl;
 
-    deletenode(head,4);
+    deletenode(head,tail,1);
+    cout<<"head: "<<head<<endl;
     
 
 
