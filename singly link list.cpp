@@ -82,6 +82,18 @@ void deletenode(Node* &head,Node* &tail,int pos){
     }
 }
     
+void search(Node* head, int d){
+    Node* temp=head;
+    int count=0;
+    while(temp!=NULL){
+        count++;
+        if(temp->val==d){
+            cout<<"found"<<endl;
+            cout<<d<<" is at "<<count<<" position in linked list"<<endl;
+            return ;
+        }
+    }
+}
 
 
 int main(){
@@ -100,28 +112,30 @@ int main(){
     insertatmiddle(head,tail,66,2);
     insertatmiddle(head,tail,55,3);
     insertatmiddle(head,tail,35,4);
-    print(head);
-    cout<<endl;
+    // print(head);
+    // cout<<endl;
 
-    deletenode(head,tail,1);
-    print(head);
-    cout<<endl;
-    deletenode(head,tail,10);
-    print(head);
-    cout<<endl;
-    cout<<"head: "<<head->val<<endl;
-    cout<<"tail: "<<tail->val<<endl;
+    // deletenode(head,tail,1);
+    // print(head);
+    // cout<<endl;
+    // deletenode(head,tail,10);
+    // print(head);
+    // cout<<endl;
+    // cout<<"head: "<<head->val<<endl;
+    // cout<<"tail: "<<tail->val<<endl;
     
-    cout<<"______________________________"<<endl;
+    // cout<<"______________________________"<<endl;
 
-    deletenode(head,tail,1);
-    print(head);
-    cout<<endl;
-    deletenode(head,tail,8);
-    print(head);
-    cout<<endl;
-    cout<<"head: "<<head->val<<endl;
-    cout<<"tail: "<<tail->val<<endl;
+    // deletenode(head,tail,1);
+    // print(head);
+    // cout<<endl;
+    // deletenode(head,tail,8);
+    // print(head);
+    // cout<<endl;
+    // cout<<"head: "<<head->val<<endl;
+    // cout<<"tail: "<<tail->val<<endl;
+
+    search(head,45);
     
 
 
