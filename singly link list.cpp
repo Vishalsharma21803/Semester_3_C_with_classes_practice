@@ -61,7 +61,7 @@ void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
     temp->next=newnode;
 
 }
-void deletenode(Node* head,Node* tail,int pos){
+void deletenode(Node* &head,Node* &tail,int pos){
     if(pos==1){
         Node* temp2=head;
         temp2=temp2->next;
