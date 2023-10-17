@@ -107,7 +107,9 @@ int main(){
     cout<<endl;
 
     deletenode(head,tail,1);
-    deletenode(head,tail,11);
+    print(head);
+    cout<<endl;
+    deletenode(head,tail,10);
     cout<<"head: "<<head<<endl;
     
 
