@@ -112,6 +112,17 @@ int main(){
     cout<<"head: "<<head->val<<endl;
     cout<<"tail: "<<tail->val<<endl;
     
+    //______________________________
+
+    deletenode(head,tail,1);
+    print(head);
+    cout<<endl;
+    deletenode(head,tail,10);
+    print(head);
+    cout<<endl;
+    cout<<"head: "<<head->val<<endl;
+    cout<<"tail: "<<tail->val<<endl;
+    
 
 
     
