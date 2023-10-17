@@ -68,6 +68,7 @@ void deletenode(Node* &head,Node* &tail,int pos){
         head=temp2;
         
     }
+    else{
     Node* temp=head;
     for(int i=1;i<pos-1;i++){
         temp=temp->next;
@@ -80,7 +81,7 @@ void deletenode(Node* &head,Node* &tail,int pos){
     
     temp->next=temp->next->next;
     
-
+    }
 
 }
     
