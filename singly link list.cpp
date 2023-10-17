@@ -102,7 +102,7 @@ int main(){
     deletenode(head,1);
     print(head);
     cout<<endl;
-    deletenode(head,8);
+    deletenode(head,10);
     print(head);
     cout<<endl;
     cout<<"head: "<<head->val<<endl;
