@@ -66,7 +66,7 @@ void deletenode(Node* &head,int pos){
         Node* temp2=head;
         temp2=temp2->next;
         head=temp2;
-        delete temp2;
+        //delete temp2;
         
     }
     else{
