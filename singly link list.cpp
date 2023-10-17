@@ -110,8 +110,8 @@ int main(){
     print(head);
     cout<<endl;
     //deletenode(head,tail,9);
-    cout<<"head: "<<head<<endl;
-    cout<<"tail: "<<tail<<endl;
+    cout<<"head: "<<head->val<<endl;
+    cout<<"tail: "<<tail->val<<endl;
     
 
 
