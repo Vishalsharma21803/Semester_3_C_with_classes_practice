@@ -138,7 +138,7 @@ int main(){
     // cout<<"head: "<<head->val<<endl;
     // cout<<"tail: "<<tail->val<<endl;
 
-    search(head,40);
+    search(head,9);
     
 
 
