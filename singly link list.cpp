@@ -62,13 +62,26 @@ void insertatmiddle(Node* &head,Node* &tail,int d,int pos){
 
 }
 void deletenode(Node* head,Node* tail,int pos){
-    
+    if(pos==1){
+        Node* temp2=head;
+        temp2=temp2->next;
+        delete head;
+        head=temp2;
+        
+    }
     Node* temp=head;
     for(int i=1;i<pos-1;i++){
         temp=temp->next;
     }
+    if(temp->next==NULL){
+        Node* temp3=tail;
+        delete tail;
+        tail=temp3;
+    }
+    
     temp->next=temp->next->next;
     
+
 
 }
     
