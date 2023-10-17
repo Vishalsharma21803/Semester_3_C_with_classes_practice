@@ -103,12 +103,13 @@ int main(){
     print(head);
     cout<<endl;
     deletenode(head,8);
+    print(head);
     cout<<"head: "<<head->val<<endl;
     cout<<"tail: "<<tail->val<<endl;
     
 
 
-    //print(head);
+    
 
 return 0;
 }
