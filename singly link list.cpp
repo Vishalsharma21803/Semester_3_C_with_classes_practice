@@ -104,6 +104,7 @@ int main(){
     cout<<endl;
     deletenode(head,8);
     print(head);
+    cout<<endl;
     cout<<"head: "<<head->val<<endl;
     cout<<"tail: "<<tail->val<<endl;
     
