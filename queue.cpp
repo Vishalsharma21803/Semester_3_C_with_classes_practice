@@ -40,9 +40,10 @@ class queue{
             return false;
         }
     }
-    // void size(){
-    //     cout<<"Size of the queue is "<<(rare+1)<<endl;
-    // }
+    int sizeo(){
+        //cout<<(rare+1);
+        return (rare+1);
+    }
     
     
 };
@@ -52,7 +53,8 @@ int main(){
     q1.push(3);
     q1.push(7);
     q1.pop();
-    //cout<<q1.empty();
-    //cout<<"size: "<<q1.size();
+    cout<<q1.empty();
+    
+    cout<<"size: "<<q1.sizeo();
     return 0;
 }
