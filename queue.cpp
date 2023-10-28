@@ -33,7 +33,7 @@ class queue{
         }
     }
     bool empty(){
-        if(rare==-1){
+        if(rare==front){
             return true;
         }
         else{
